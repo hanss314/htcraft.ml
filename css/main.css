@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    background-color: darkcyan;
+    color: black;
+}
+
+a {
+    top: 50%;
+}
+
+a:visited {
+    color: black;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    line-height: 100vh;
+}
+.right {
+    overflow: hidden;
+    width: 50%;
+    display: block;
+    height: 100vh;
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh;
+}
